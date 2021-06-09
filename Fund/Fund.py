@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 from datetime import date, timedelta
-from FundVisualizer import FundVisualizer
+from .FundVisualizer import FundVisualizer
 
 class Fund:
     def __init__(self, fund_id, start_date, end_date=str(date.today()), fetch_data=False):
